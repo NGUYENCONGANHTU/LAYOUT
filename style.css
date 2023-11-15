@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container
+{
+    border: 1px solid red;
+}
+.header
+{
+    border: 1px solid red;
+    padding: 20px;
+    background-color: rgb(189, 36, 36);
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.menu li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.header-top
+{
+    background-color:bisque;
+    height: 400px;
+    font-size: 40px;  
+}
+
+.text-1 p
+{
+    margin-top: 50px;
+}
+.header-mid
+{
+    border: 1px solid rgb(0, 255, 162);
+    height: 300px;
+    background-color:gainsboro;
+}
+.text
+{
+
+    margin-top: 80px;
+    font-size: 35px;
+
+}
+.text p{
+    margin-top: 20px;
+}
+hr
+{
+    height: 50px;
+    background-color: rgb(115, 68, 102);
+}
+.header-bottom
+{
+    height: 350px;
+    font-size:35px ;
+    background-color: aquamarine;
+}
+.meme
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main
+{
+    border: 5px solid red;
+}
+.main center
+{
+   font-size: 50px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   font-weight: bold;
+}
+img
+{
+    width: 500px;
+    height: auto;
+}
+.item
+{
+    border: 5px solid red; 
+    display: flex;
+}
+.item p
+{
+    margin-left: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 210px;;
+}
+.footer
+{
+    border: 10px solid red;
+    height: 1000px;
+}
+input
+{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+button{
+   
+    width: 400px;
+    height: 70px;
+    margin-top: 50px;
+    font-size: 50px;
+}
